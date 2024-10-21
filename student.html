@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Information Form</title>
+    <link rel="stylesheet" href="Student.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Information Form</h2>
+        <form action="#" method="POST">
+            <!-- Student Information -->
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+            </div>
+
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+                <br>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+
+            <div class="form-group">
+                <label for="zip">ZIP Code:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <!-- Academic Information -->
+            <div class="form-group">
+                <label for="student_id">Student ID:</label>
+                <input type="text" id="student_id" name="student_id" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="bcom">B.Com</option>
+                    <option value="ba">B.A</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year" required>
+                    <option value="">Select</option>
+                    <option value="first">First Year</option>
+                    <option value="second">Second Year</option>
+                    <option value="third">Third Year</option>
+                </select>
+            </div>
+
+            <!-- Guardian Information -->
+            <div class="form-group">
+                <label for="father_name">Father's Name:</label>
+                <input type="text" id="father_name" name="father_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="father_phone">Father's Phone Number:</label>
+                <input type="tel" id="father_phone" name="father_phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mother_name">Mother's Name:</label>
+                <input type="text" id="mother_name" name="mother_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mother_phone">Mother's Phone Number:</label>
+                <input type="tel" id="mother_phone" name="mother_phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="guardian_name">Guardian's Name (if applicable):</label>
+                <input type="text" id="guardian_name" name="guardian_name">
+            </div>
+
+            <div class="form-group">
+                <label for="guardian_phone">Guardian's Phone Number:</label>
+                <input type="tel" id="guardian_phone" name="guardian_phone">
+            </div>
+
+            <!-- Additional Information -->
+            <div class="form-group">
+                <label for="blood_group">Blood Group:</label>
+                <select id="blood_group" name="blood_group" required>
+                    <option value="">Select</option>
+                    <option value="a+">A+</option>
+                    <option value="a-">A-</option>
+                    <option value="b+">B+</option>
+                    <option value="b-">B-</option>
+                    <option value="ab+">AB+</option>
+                    <option value="ab-">AB-</option>
+                    <option value="o+">O+</option>
+                    <option value="o-">O-</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
